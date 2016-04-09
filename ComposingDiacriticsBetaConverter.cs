@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.BetaImport
+namespace Grammophone.BetaImport
 {
 	/// <summary>
 	/// A beta code converter to unicode, which handles diacritics by late composition.

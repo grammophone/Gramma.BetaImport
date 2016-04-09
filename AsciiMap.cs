@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Gramma.BetaImport
+namespace Grammophone.BetaImport
 {
 	/// <summary>
 	/// Class to map ascii characters to unicode characters.

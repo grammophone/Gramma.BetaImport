@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.BetaImport
+namespace Grammophone.BetaImport
 {
 	/// <summary>
 	/// Class to convert a beta code string to unicode.

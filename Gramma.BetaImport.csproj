@@ -8,8 +8,8 @@
     <ProjectGuid>{739C342E-5FEC-45B5-B5B6-A73FAAED5F74}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gramma.BetaImport</RootNamespace>
-    <AssemblyName>Logos.BetaImport</AssemblyName>
+    <RootNamespace>Grammophone.BetaImport</RootNamespace>
+    <AssemblyName>Grammophone.BetaImport</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

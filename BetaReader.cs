@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace Gramma.BetaImport
+namespace Grammophone.BetaImport
 {
 	/// <summary>
 	/// A filter stream that takes characters from a stream
