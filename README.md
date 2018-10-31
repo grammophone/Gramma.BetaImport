@@ -11,16 +11,16 @@ dialog.Filter = "Text documents|*.txt";
 
 if (dialog.ShowDialog(this) == true)
 {
-	using (Stream inputStream = dialog.OpenFile())
-	{
-		using (var betaReader = new BetaReader(inputStream, new PrecombinedDiacriticsBetaConverter()))
-		//using (var betaReader = new BetaReader(inputStream, new ComposingDiacriticsBetaConverter()))
-		{
-			fileTextBox.Text = dialog.FileName;
-			contentTextBox.ScrollToHome();
-			contentTextBox.Text = betaReader.ReadToEnd();
-		}
-	}
+  using (Stream inputStream = dialog.OpenFile())
+  {
+    using (var betaReader = new BetaReader(inputStream, new PrecombinedDiacriticsBetaConverter()))
+    //using (var betaReader = new BetaReader(inputStream, new ComposingDiacriticsBetaConverter()))
+    {
+      fileTextBox.Text = dialog.FileName;
+      contentTextBox.ScrollToHome();
+      contentTextBox.Text = betaReader.ReadToEnd();
+    }
+  }
 }
 ```
 
